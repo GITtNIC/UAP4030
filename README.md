@@ -1,29 +1,39 @@
-# P26 - UAP-4030
+# UAP4030
 
-**Unbelievably Efficient Phenomenon** — 40 KG Payload for 30 Minutes of Flight Time
+**Unbelievably Efficient Phenomenon** — heavy-lift drone concept targeting **40 kg payload** and **30 min flight time**.
 
-A heavy-lift drone build for a school project. Designed to lift 40kg payload with 30-minute flight time.
+> School project (P26-20-2-013)
 
-## Specs
+## Project goal
+Design and validate a realistic heavy-lift multirotor architecture (likely octocopter or coaxial X8) with practical component sizing, power budgeting, and safety margins.
 
+## Current status
+- [x] Initial project scaffold
+- [x] Draft BOM (needs heavy-lift revision)
+- [ ] Final architecture freeze (motor/prop/frame topology)
+- [ ] Powertrain validation calculations
+- [ ] Procurement-ready BOM
+- [ ] Prototype assembly + test plan
+
+## Repository structure
+- `README.md` — project overview and execution status
+- `BOM.md` — bill of materials draft + heavy-lift TODOs
+
+## Next milestones
+1. Freeze propulsion architecture (8-motor vs X8 coaxial)
+2. Finalize thrust-to-weight and power calculations
+3. Convert draft BOM into procurement-ready spec
+4. Define test protocol (static thrust, hover endurance, safety)
+
+## Baseline target specs
 | Parameter | Target |
-|-----------|--------|
+|---|---|
 | Payload | 40 kg |
-| Flight Time | 30 min |
-| Type | Heavy-lift octocopter or coaxial X8 |
-
-## Status
-
-- [ ] Research & design phase
-- [ ] BOM finalization
-- [ ] Component sourcing
-- [ ] Assembly
-- [ ] Testing
+| Flight time | 30 min |
+| Airframe type | Heavy-lift octocopter or coaxial X8 |
 
 ## Notes
+This is **not** an ultra-light endurance build. Components and wiring must be sized for high current and safety-critical operation.
 
-This is a heavy-lift build, not an ultra-light endurance drone. Components must be scaled up from typical drone specs to handle the extreme amperage and weight.
-
----
-
-*School project*
+## License
+MIT

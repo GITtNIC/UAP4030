@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data / outputs
+outputs/
+artifacts/
+*.log
+
+# CAD / media exports (keep source, ignore heavy renders by default)
+*.stl
+*.step
+*.iges
+*.obj
+*.fbx
+*.blend1
